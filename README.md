@@ -22,4 +22,4 @@ installed and enabled.
 
 ### Run
 
-`$ docker run -it --publish 8888:8888 --publish 6006:6006 dennisobrien/deeplearning-fastai:latest .`
+`$ docker run -it --publish 8888:8888 --publish 6006:6006 dennisobrien/deeplearning-fastai:latest`
