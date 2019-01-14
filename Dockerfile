@@ -20,4 +20,7 @@ RUN conda install --quiet --yes \
 RUN conda create --quiet --yes --name=fastai \
     --channel=fastai --channel=pytorch \
     python=3.7 ipykernel \
-    pytorch pytorch-nightly cuda92 fastai
+    pytorch \
+    pytorch-nightly \
+    cuda92 \
+    fastai==1.0.39
